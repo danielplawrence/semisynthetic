@@ -1,0 +1,9 @@
+\frametitle{Resynthesis}
+\begin{lstlisting}
+#Combine the source and filter representations to make a new vowel
+selectObject: "LPC untitled_10000"
+selectObject: "Sound untitled_10000"
+plusObject: "Formant untitled_10000"
+Filter
+Play
+\end{lstlisting}
