@@ -1,0 +1,384 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 APR 2015 17:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**semisynthetic.tex -recorder
+(./semisynthetic.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count88
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./semisynthetic.aux)
+\openout1 = `semisynthetic.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 9.
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 14.
+
+[1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+
+<fant.png, id=11, 507.496pt x 221.628pt>
+File: fant.png Graphic file (type png)
+ <use fant.png>
+Package pdftex.def Info: fant.png used on input line 32.
+(pdftex.def)             Requested size: 304.49994pt x 132.97781pt.
+ [2 <./fant.png>]
+Package epstopdf Info: Source file: <goat.eps>
+(epstopdf)                    date: 2015-04-25 13:30:46
+(epstopdf)                    size: 47993 bytes
+(epstopdf)             Output file: <goat-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-25 13:31:04
+(epstopdf)                    size: 124419 bytes
+(epstopdf)             Command: <repstopdf --outfile=goat-eps-converted-to.pdf 
+goat.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<goat-eps-converted-to.pdf, id=18, 433.62pt x 289.08pt>
+File: goat-eps-converted-to.pdf Graphic file (type pdf)
+
+<use goat-eps-converted-to.pdf>
+Package pdftex.def Info: goat-eps-converted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+Package epstopdf Info: Source file: <LPC_filter.eps>
+(epstopdf)                    date: 2015-01-09 17:29:23
+(epstopdf)                    size: 22339 bytes
+(epstopdf)             Output file: <LPC_filter-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-25 13:06:05
+(epstopdf)                    size: 82945 bytes
+(epstopdf)             Command: <repstopdf --outfile=LPC_filter-eps-converted-t
+o.pdf LPC_filter.eps>
+(epstopdf)             \includegraphics on input line 42.
+Package epstopdf Info: Output file is already uptodate.
+
+<LPC_filter-eps-converted-to.pdf, id=19, 433.62pt x 289.08pt>
+File: LPC_filter-eps-converted-to.pdf Graphic file (type pdf)
+
+<use LPC_filter-eps-converted-to.pdf>
+Package pdftex.def Info: LPC_filter-eps-converted-to.pdf used on input line 42.
+
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+Package epstopdf Info: Source file: <source.eps>
+(epstopdf)                    date: 2015-01-09 17:28:18
+(epstopdf)                    size: 31723 bytes
+(epstopdf)             Output file: <source-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-25 13:06:01
+(epstopdf)                    size: 127774 bytes
+(epstopdf)             Command: <repstopdf --outfile=source-eps-converted-to.pd
+f source.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+
+<source-eps-converted-to.pdf, id=20, 433.62pt x 289.08pt>
+File: source-eps-converted-to.pdf Graphic file (type pdf)
+
+<use source-eps-converted-to.pdf>
+Package pdftex.def Info: source-eps-converted-to.pdf used on input line 43.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+Package epstopdf Info: Source file: <goat_mono.eps>
+(epstopdf)                    date: 2015-04-25 13:25:40
+(epstopdf)                    size: 49290 bytes
+(epstopdf)             Output file: <goat_mono-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-25 13:26:07
+(epstopdf)                    size: 128219 bytes
+(epstopdf)             Command: <repstopdf --outfile=goat_mono-eps-converted-to
+.pdf goat_mono.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+
+<goat_mono-eps-converted-to.pdf, id=21, 433.62pt x 289.08pt>
+File: goat_mono-eps-converted-to.pdf Graphic file (type pdf)
+
+<use goat_mono-eps-converted-to.pdf>
+Package pdftex.def Info: goat_mono-eps-converted-to.pdf used on input line 44.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+ [3 <./goat-eps-converted-to.pdf> <./LPC_filter-eps-converted-to.pdf> <./source
+-eps-converted-to.pdf> <./goat_mono-eps-converted-to.pdf>] <not_very_white.png,
+ id=53, 433.62pt x 289.08pt>
+File: not_very_white.png Graphic file (type png)
+
+<use not_very_white.png>
+Package pdftex.def Info: not_very_white.png used on input line 51.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+ <much_more_white.png, id=54, 433.62pt x 289.08pt>
+File: much_more_white.png Graphic file (type png)
+
+<use much_more_white.png>
+Package pdftex.def Info: much_more_white.png used on input line 52.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+
+Overfull \hbox (4.11205pt too wide) in paragraph at lines 51--53
+[][] [] 
+ []
+
+<vowel_LF_only.png, id=55, 433.62pt x 289.08pt>
+File: vowel_LF_only.png Graphic file (type png)
+ <use vowel_LF_only.png>
+Package pdftex.def Info: vowel_LF_only.png used on input line 59.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+
+<vowel_HF_restored.png, id=56, 433.62pt x 289.08pt>
+File: vowel_HF_restored.png Graphic file (type png)
+
+<use vowel_HF_restored.png>
+Package pdftex.def Info: vowel_HF_restored.png used on input line 60.
+(pdftex.def)             Requested size: 173.44492pt x 115.62994pt.
+
+Overfull \hbox (4.11205pt too wide) in paragraph at lines 59--61
+[][] [] 
+ []
+
+[4 <./not_very_white.png> <./much_more_white.png> <./vowel_LF_only.png> <./vowe
+l_HF_restored.png>] <i.png, id=64, 433.62pt x 289.08pt>
+File: i.png Graphic file (type png)
+ <use i.png>
+Package pdftex.def Info: i.png used on input line 72.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+
+<u.png, id=65, 433.62pt x 289.08pt>
+File: u.png Graphic file (type png)
+ <use u.png>
+Package pdftex.def Info: u.png used on input line 73.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+
+<original_i_token.png, id=66, 433.62pt x 289.08pt>
+File: original_i_token.png Graphic file (type png)
+ <use original_i_token.png>
+Package pdftex.def Info: original_i_token.png used on input line 79.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+
+<original_u_token.png, id=67, 433.62pt x 289.08pt>
+File: original_u_token.png Graphic file (type png)
+ <use original_u_token.png>
+Package pdftex.def Info: original_u_token.png used on input line 80.
+(pdftex.def)             Requested size: 130.087pt x 86.72466pt.
+
+<distances.png, id=68, 401.5pt x 262.581pt>
+File: distances.png Graphic file (type png)
+ <use distances.png>
+Package pdftex.def Info: distances.png used on input line 86.
+(pdftex.def)             Requested size: 160.59715pt x 105.03052pt.
+
+<F2_continuum.png, id=69, 401.5pt x 262.581pt>
+File: F2_continuum.png Graphic file (type png)
+ <use F2_continuum.png>
+Package pdftex.def Info: F2_continuum.png used on input line 87.
+(pdftex.def)             Requested size: 160.59715pt x 105.03052pt.
+ [5 <./i.png> <./u.png> <./original_i_token.png> <./original_u_token.png>]
+<continuum_spec.pdf, id=78, 433.62pt x 289.08pt>
+File: continuum_spec.pdf Graphic file (type pdf)
+ <use continuum_spec.pdf>
+Package pdftex.def Info: continuum_spec.pdf used on input line 95.
+(pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+
+[6 <./distances.png> <./F2_continuum.png> <./continuum_spec.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 104.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 104.
+ [7] [8]
+(./semisynthetic.aux) ) 
+Here is how much of TeX's memory you used:
+ 3070 strings out of 493488
+ 40893 string characters out of 3141326
+ 91106 words of memory out of 3000000
+ 6334 multiletter control sequences out of 15000+200000
+ 9523 words of font info for 33 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,8n,23p,1228b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/tipa/tipa10
+.pfb>
+Output written on semisynthetic.pdf (8 pages, 20016218 bytes).
+PDF statistics:
+ 135 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+
