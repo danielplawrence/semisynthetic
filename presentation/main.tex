@@ -75,7 +75,7 @@
 
 \section{Introduction}
 \begin{frame}{Introduction}
-A typical aim of a sociophonetic perception study is to explore the impact of a single variable on a social judgement. 
+A typical aim of a sociophonetic perception study is to explore the impact of a single variable on a social judgment. 
 Options:
 \begin{itemize}
 \item{Use phonetically diverse natural stimuli (e.g. Clopper \& Pisoni, 2004)}
@@ -84,19 +84,27 @@ Options:
 \item{Use synthetic or semisynthetic stimuli (e.g. Kendall \& Fridland, 2012; Hay, Warren \& Drager, 2006)}
 \end{itemize}
 \end{frame}
+\section{Parametric synthesis}
 \begin{frame}{Parametric synthesis}
-Basic source-filter theory:
+Basic source-filter theory (Fant, 1960):
 \begin{itemize}
-\item{Treat the speech signal as a function of the glottal source multiplied by vocal tract resonances:}
+\item{Treat the speech signal as a combination of a sound source and vocal tract resonances, plus the effect of radiation from the lips:}
+\end{itemize}
+\hspace{-0.5cm}
+\includegraphics[scale=0.6,keepaspectratio]{fant.png}
+\end{frame}
+\begin{frame}{Parametric synthesis}
+Basic source-filter theory (Fant, 1960):
+\begin{itemize}
+\item{Treat the speech signal as a combination of a sound source and vocal tract resonances, plus the effect of radiation from the lips:}
 \end{itemize}
 \includegraphics[scale=0.225,keepaspectratio]{aa_source.pdf}
 \includegraphics[scale=0.225,keepaspectratio]{aa_filter.pdf}
 \includegraphics[scale=0.225,keepaspectratio]{aa_conv.pdf}
 \begin{itemize}
-\item{To synthesize speech, we need to generate a voicing source and pass it through a set of digital filters}
+\item{To synthesize speech, we need to generate an excitation source and pass it through a set of digital filters}
 \end{itemize}
 \end{frame}
-\section{Parametric synthesis}
 \begin{frame}{Parametric synthesis}
 Parametric synthesis:
 \begin{itemize}
@@ -128,24 +136,13 @@ In practice:
 \centering
 \movie[start=5s, inlinesound]{\fbox{Play}}{coffee.wav}
 \end{frame}
-\begin{frame}{Parametric synthesis}
-Pros of fully-parameteric synthesis:
-\begin{itemize}
-\item{Fine-grained control over parameters}
-\item{Given unlimited time and accurate measurements of the parameters of a source item, in principle possible to synthesize any speech sound}
-\item{Stimuli fully replicable as long as parameters are published}
-\end{itemize}
-\end{frame}
-\begin{frame}{Parametric synthesis}
-Cons of fully-parametric synthesis:
-\begin{itemize}
-\item{Properties of the glottal source particularly difficult to imitate.}
-\item{This means that tokens often have a 'robotic' quality -- perhaps not appropriate for some sociophonetic applications.}
-\item{Parameter-setting can be very time consuming, particularly if we want to model dynamic properties of vowels.}
-\end{itemize}
-\end{frame}
 \begin{frame}[fragile]{Parametric synthesis}
 Parametric synthesis in Praat:
+\begin{itemize}
+\item{Praat implements the Klatt synthesizer through `KlattGrid' objects}
+\item{You can imagine these as 2D grids with time on the X-axis and the Klatt settings on the Y-axis}
+\item{http://www.fon.hum.uva.nl/praat/manual/KlattGrid.html}
+\end{itemize}
 \begin{lstlisting}
 #Create a KlattGrid
 Create KlattGrid... aa 0 0.5 6 1 1 6 1 1 1
@@ -178,9 +175,29 @@ Add oral formant bandwidth point... 4 0.1 300
 Play
 To Sound
 \end{lstlisting}
-This demonstrates the basic concept -- to make things more advanced we could run Praat's formant tracking algorithms on natural speech, then base the Klatt parameters on this.
+\begin{itemize}
+\item{Can you modify the code to generate a high front vowel?}
+\item{What about a diphthong?}
+\item{Try running `klatt\_cardinal.psc'}
+\end{itemize}
 \end{frame}
-\section{Semisynthetic stimuli generation}
+\begin{frame}{Parametric synthesis}
+Pros of fully-parametric synthesis:
+\begin{itemize}
+\item{Fine-grained control over parameters}
+\item{Given unlimited time and accurate measurements of the parameters of a source item, in principle possible to synthesize any speech sound}
+\item{Stimuli fully replicable as long as parameters are published}
+\end{itemize}
+\end{frame}
+\begin{frame}{Parametric synthesis}
+Cons of fully-parametric synthesis:
+\begin{itemize}
+\item{Properties of the glottal source particularly difficult to imitate.}
+\item{This means that tokens often have a `robotic' quality -- perhaps not appropriate for some sociophonetic applications.}
+\item{Parameter-setting can be very time consuming, particularly if we want to model dynamic properties of vowels.}
+\end{itemize}
+\end{frame}
+\section{LPC-based methods}
 \begin{frame}{LPC inverse-filtering}
 An alternative: LPC inverse-filtering
 \begin{itemize}
@@ -193,12 +210,22 @@ An alternative: LPC inverse-filtering
 \begin{frame}
 Linear Predictive Coding
 \begin{itemize}
-\item{A technique for estimating the spectral envelope of a time-varying speech signal}
-\item{Instead of measuring the formant frequencies at every timepoint, take advantage of the fact that frequencies don't change very quickly -- the value at given time point is a linear combination of the previous values}
+\item{A technique for estimating the spectral envelope of a time-varying speech signal.}
+\item{Origins in early television encoding -- black and white TV images are 3D grids (x,y,brightness) which vary over time.}
 \end{itemize}
-\centering
 \begin{figure}
-\includegraphics[scale=0.3,keepaspectratio]{linear_predictive_filter.png}
+\centering
+\includegraphics[scale=0.05,keepaspectratio]{bw_tv.jpg}
+\end{figure}
+\begin{itemize}
+\item{However, values do not vary randomly -- the brightness of any point is likely to be related to the adjacent points}
+\end{itemize}
+\end{frame}
+\begin{frame}
+Linear Predictive Coding
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,keepaspectratio]{linear_predictive_filter.png}
 \end{figure}
 \footnotesize{Image courtesy of Simon King}
 \end{frame}
@@ -288,7 +315,7 @@ Linear Predictive Coding
 \end{itemize}
 \centering{$e(n) = x(n) - \widehat{x}(n)$}
 \begin{itemize}
-\item{In other words, assuming the linear prediction did a good job, the LPC residual will be close approximation of the glottal source.}
+\item{Because the largest errors tend to be around the largest changes in the signal, the residual approximates the pitch periods, `whitening' the signal by removing spectral characteristics.}
 \end{itemize}
 \end{frame}
 \begin{frame}
@@ -316,7 +343,7 @@ Linear Predictive Coding
 \begin{figure}
 \includegraphics[scale=0.5,keepaspectratio]{LPC_lossy.png}
 \end{figure}
-\movie[start=5s, inlinesound]{\fbox{Play}}{coffee.wav}
+\movie[start=5s, inlinesound]{\fbox{Play}}{OF_no_HF.wav}
 \end{frame}
 \begin{frame}
 \begin{itemize}
@@ -326,6 +353,31 @@ Linear Predictive Coding
 \includegraphics[scale=0.5,keepaspectratio]{synth_HF_added.png}
 \end{figure}
 \movie[start=5s, inlinesound]{\fbox{Play}}{synth_HF.wav}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item{Problem: How can we ensure that we have a good source model?}
+\end{itemize}
+\begin{figure}
+\includegraphics[scale=0.5,keepaspectratio]{not_very_white.png}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item{Solution: Following Alku (1992), filter iteratively, estimating spectral characteristics of glottal flow and vocal tract with different LPC orders}
+\end{itemize}
+\begin{figure}
+\includegraphics[scale=0.4,keepaspectratio]{iaif_block.png}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item{Result: very high quality source-filter separation}
+\end{itemize}
+\begin{figure}
+\includegraphics[scale=0.3,keepaspectratio]{not_very_white.png}
+\includegraphics[scale=0.3,keepaspectratio]{much_more_white.png}
+\end{figure}
 \end{frame}
 \begin{frame}
 \begin{itemize}
@@ -381,6 +433,9 @@ plusObject: "Formant untitled_10000"
 Filter
 Play
 \end{lstlisting}
+\begin{itemize}
+\item{Try recording yourself producing a vowel (ctr+r). Select your vowel token and run `LPC\_cardinal\_iaif.praat'}
+\end{itemize}
 \end{frame}
 \section{Summary}
 \begin{frame}{Summary}
@@ -411,7 +466,7 @@ Play
 \begin{itemize}
 \footnotesize
 \item{Formant manipulation script on Github: https://github.com/danielplawrence/semisynthetic}
-\item{Will Stlyer's resynthesis scripts: https://github.com\\/stylerw/styler\_praat\_scripts/tree/master/source\_filter\_vowel\_resynth}
+\item{Will Styler's resynthesis scripts: https://github.com\\/stylerw/styler\_praat\_scripts/tree/master/source\_filter\_vowel\_resynth}
 \item{Similar stuff from Sam Kirkham: http://samkirkham.com/scripts/index.html}
 \item{Instructions for source-filter synthesis in \textit{Praat}: http://www.fon.hum.uva.nl/praat/manual/Source-filter\_synthesis.html}
 \item{PraatR: http://www.aaronalbin.com/praatr/}

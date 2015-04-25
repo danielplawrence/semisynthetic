@@ -1,7 +1,7 @@
 \beamer@endinputifotherversion {3.20pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {2}{Parametric synthesis}{4}{0}{2}
-\beamer@sectionintoc {3}{Semisynthetic stimuli generation}{13}{0}{3}
-\beamer@sectionintoc {4}{Summary}{40}{0}{4}
-\beamer@sectionintoc {5}{References \& Links}{41}{0}{5}
+\beamer@sectionintoc {2}{Parametric synthesis}{3}{0}{2}
+\beamer@sectionintoc {3}{LPC-based methods}{14}{0}{3}
+\beamer@sectionintoc {4}{Summary}{45}{0}{4}
+\beamer@sectionintoc {5}{References \& Links}{46}{0}{5}

@@ -6,11 +6,11 @@
 \headcommand {\beamer@subsectionpages {1}{1}}
 \headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\sectionentry {2}{Parametric synthesis}{3}{Parametric synthesis}{0}}
+\headcommand {\beamer@sectionpages {2}{2}}
+\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\slideentry {2}{0}{3}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\sectionentry {2}{Parametric synthesis}{4}{Parametric synthesis}{0}}
-\headcommand {\beamer@sectionpages {2}{3}}
-\headcommand {\beamer@subsectionpages {2}{3}}
 \headcommand {\slideentry {2}{0}{4}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\slideentry {2}{0}{5}{5/5}{}{0}}
@@ -29,11 +29,11 @@
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\slideentry {2}{0}{12}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\sectionentry {3}{Semisynthetic stimuli generation}{13}{Semisynthetic stimuli generation}{0}}
-\headcommand {\beamer@sectionpages {4}{12}}
-\headcommand {\beamer@subsectionpages {4}{12}}
-\headcommand {\slideentry {3}{0}{13}{13/13}{}{0}}
+\headcommand {\slideentry {2}{0}{13}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
+\headcommand {\sectionentry {3}{LPC-based methods}{14}{LPC-based methods}{0}}
+\headcommand {\beamer@sectionpages {3}{13}}
+\headcommand {\beamer@subsectionpages {3}{13}}
 \headcommand {\slideentry {3}{0}{14}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
 \headcommand {\slideentry {3}{0}{15}{15/15}{}{0}}
@@ -86,20 +86,30 @@
 \headcommand {\beamer@framepages {38}{38}}
 \headcommand {\slideentry {3}{0}{39}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\sectionentry {4}{Summary}{40}{Summary}{0}}
-\headcommand {\beamer@sectionpages {13}{39}}
-\headcommand {\beamer@subsectionpages {13}{39}}
-\headcommand {\slideentry {4}{0}{40}{40/40}{}{0}}
+\headcommand {\slideentry {3}{0}{40}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\sectionentry {5}{References \& Links}{41}{References \& Links}{0}}
-\headcommand {\beamer@sectionpages {40}{40}}
-\headcommand {\beamer@subsectionpages {40}{40}}
-\headcommand {\slideentry {5}{0}{41}{41/41}{}{0}}
+\headcommand {\slideentry {3}{0}{41}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{0}{42}{42/42}{}{0}}
+\headcommand {\slideentry {3}{0}{42}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@subsectionpages {41}{42}}
-\headcommand {\beamer@sectionpages {41}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\def \inserttotalframenumber {42}}
+\headcommand {\slideentry {3}{0}{43}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {3}{0}{44}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\sectionentry {4}{Summary}{45}{Summary}{0}}
+\headcommand {\beamer@sectionpages {14}{44}}
+\headcommand {\beamer@subsectionpages {14}{44}}
+\headcommand {\slideentry {4}{0}{45}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\sectionentry {5}{References \& Links}{46}{References \& Links}{0}}
+\headcommand {\beamer@sectionpages {45}{45}}
+\headcommand {\beamer@subsectionpages {45}{45}}
+\headcommand {\slideentry {5}{0}{46}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {5}{0}{47}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@partpages {1}{47}}
+\headcommand {\beamer@subsectionpages {46}{47}}
+\headcommand {\beamer@sectionpages {46}{47}}
+\headcommand {\beamer@documentpages {47}}
+\headcommand {\def \inserttotalframenumber {47}}

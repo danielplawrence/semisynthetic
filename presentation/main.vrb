@@ -7,3 +7,6 @@ plusObject: "Formant untitled_10000"
 Filter
 Play
 \end{lstlisting}
+\begin{itemize}
+\item{Try recording yourself producing a vowel (ctr+r). Select your vowel token and run `LPC\_cardinal\_iaif.praat'}
+\end{itemize}
